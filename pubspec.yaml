@@ -1,0 +1,28 @@
+name: opthalmology_mcqs
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.1 <3.0.0'
+
+dependencies:
+  cloud_firestore: ^4.4.3
+  firebase_core: ^2.7.0
+  firebase_auth:
+  provider:
+  firebase_ui_auth:
+  flutter:
+    sdk: flutter
+  hive_flutter:
+  states_rebuilder:
+  get_it:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  test:
+
+flutter:
+  uses-material-design: true

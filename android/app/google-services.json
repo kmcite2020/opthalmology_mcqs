@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "96219142067",
+    "project_id": "opthalmology-mcqs-c7ef4",
+    "storage_bucket": "opthalmology-mcqs-c7ef4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96219142067:android:1410c735de6df0f0d61dc6",
+        "android_client_info": {
+          "package_name": "com.example.opthalmology_mcqs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96219142067-mbu3jt2gkffsdhjquno2oohnn6l0nv68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9LYRCKWHrEaUS6qWaSa6BNabPCcLiqcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96219142067-mbu3jt2gkffsdhjquno2oohnn6l0nv68.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "96219142067-h437tbpl5iifm5pts590vqkkuehj27vu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.opthalmologyMcqs"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96219142067:android:8eef6d332e6aaa9fd61dc6",
+        "android_client_info": {
+          "package_name": "dev.loner.opthalmology_mcqs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96219142067-mbu3jt2gkffsdhjquno2oohnn6l0nv68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9LYRCKWHrEaUS6qWaSa6BNabPCcLiqcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96219142067-mbu3jt2gkffsdhjquno2oohnn6l0nv68.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "96219142067-h437tbpl5iifm5pts590vqkkuehj27vu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.opthalmologyMcqs"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
