@@ -13,7 +13,8 @@ jobs:
       with:
         channel: 'stable'
         cache: true
-    - run: flutter --version- run: flutter pub get
+    - run: flutter --version
+    - run: flutter pub get
     - run: flutter test
     - run: flutter build apk --debug --split-per-abi
     - name: Push APK to Releases
