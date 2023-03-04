@@ -17,10 +17,7 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
-      );
+      return web;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -51,6 +48,16 @@ class DefaultFirebaseOptions {
         );
     }
   }
+
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyAcno6UAgvpOPLS2LjN0vgoclILV-w2DFc',
+    appId: '1:96219142067:web:470ed28c8bc1a71fd61dc6',
+    messagingSenderId: '96219142067',
+    projectId: 'opthalmology-mcqs-c7ef4',
+    authDomain: 'opthalmology-mcqs-c7ef4.firebaseapp.com',
+    storageBucket: 'opthalmology-mcqs-c7ef4.appspot.com',
+    measurementId: 'G-N3S9S5Q627',
+  );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyD9LYRCKWHrEaUS6qWaSa6BNabPCcLiqcM',
